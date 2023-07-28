@@ -1,0 +1,11 @@
+[Unit]
+Description=Wi-Fi Hotspot Service
+After=network.target
+
+[Service]
+ExecStart=/path/to/your/script/wifi_hotspot.py
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target

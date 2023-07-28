@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Configure Wi-Fi</title>
+</head>
+<body>
+    <h1>Configure Wi-Fi</h1>
+    <form action="/configure" method="post">
+        Select Wi-Fi network:
+        <select name="ssid">
+            {% for wifi in wifi_list %}
+            <option value="{{ wifi }}">{{ wifi }}</option>
+            {% endfor %}
+        </select>
+        <br>
+        Passphrase: <input type="password" name="passphrase" required><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

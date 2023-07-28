@@ -11,8 +11,8 @@ sudo systemctl disable WiPi-Wizard.service
 sudo rm /etc/systemd/system/WiPi-Wizard.service
 
 # Restore the original dnsmasq.conf and hostapd.conf
-sudo cp original_dnsmasq.conf /etc/dnsmasq.conf
-sudo cp original_hostapd.conf /etc/hostapd/hostapd.conf
+sudo cp /etc/WiPi-Wizard-backup/original_dnsmasq.conf /etc/dnsmasq.conf
+sudo cp /etc/WiPi-Wizard-backup/original_hostapd.conf /etc/hostapd/hostapd.conf
 
 # Remove the static IP configuration for the access point
 sudo sed -i '/interface wlan0/,/nohook wpa_supplicant/d' /etc/dhcpcd.conf

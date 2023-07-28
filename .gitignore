@@ -1,0 +1,57 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.env
+*.pyc
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Compiled files and build artifacts
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.log
+
+# Configuration files
+*.conf
+*.cfg
+
+# Backup files and directories
+*.bak
+*.backup
+*.swp
+*.save
+backup*/
+
+# Logs
+logs/
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# System backups (e.g., macOS Time Machine, Windows Backup)
+*.bck
+*.bk
+
+# Any sensitive or personal information
+config.ini
+secrets/
+
+# Other temporary or generated files
+tmp/
+*.tmp
+*.temp

@@ -3,7 +3,7 @@ Description=Wi-Fi Hotspot Service
 After=network.target
 
 [Service]
-ExecStart=/path/to/your/script/wifi_hotspot.py
+ExecStart=/path/to/your/script/WiPi-Wizard.py
 Restart=always
 User=pi
 

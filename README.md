@@ -1,6 +1,6 @@
 # WiPi-Wizard
 
-WiPi-Wizard is a Raspberry Pi project that allows you to set up a Wi-Fi hotspot when no known Wi-Fi networks are available. The hotspot allows you to choose new Wi-Fi network and provide the passphrase for connection.
+WiPi-Wizard is a small script for Raspberry Pi that allows you to set up a Wi-Fi hotspot when no known Wi-Fi networks are available. The hotspot allows you to choose new Wi-Fi network and provide the passphrase for connection.
 
 ## Features
 

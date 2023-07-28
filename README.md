@@ -17,7 +17,7 @@ WiPi-Wizard is a Raspberry Pi project that allows you to set up a Wi-Fi hotspot 
 
 1. Clone this repository:
 
-- git clone https://github.com/your-username/WiPi-Wizard.git
+- git clone https://github.com/dtanguy/WiPi-Wizard.git
 - cd WiPi-Wizard
 
 2. Run the installation script:
